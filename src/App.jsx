@@ -18,7 +18,7 @@ const App = () => {
   
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-3xl font-bold mb-4">Random Ron Swanson Quote</h1>
+      <h1 className="text-3xl font-bold mb-4">Random Quote</h1>
       <div className="bg-white p-6 rounded shadow-md w-80 mb-4">
         <p className="text-lg text-center">{quote || "Click 'Get Quote' to see one !"}</p>
         <div className="flex justify-between mt-4">
